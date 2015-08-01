@@ -92,7 +92,8 @@ var Gmailer = function () {
                 template: mailconfig.template,
                 subject: mailconfig.subject,
                 from: mailconfig.from,
-                to: mailconfig.to
+                to: mailconfig.to,
+                text: mailconfig.text
             };
 
             options = _.extend(this.options, options);
